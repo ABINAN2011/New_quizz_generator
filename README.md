@@ -60,4 +60,52 @@ Create a .env file and add your Groq API key:
 GROQ_API_KEY=your_api_key_here
 ```
 
-3) 
+3) ▶️ Run the Application
+```bash
+streamlit run app.py
+```
+
+📘 Example Workflow
+
+1) Upload a PDF containing lecture notes
+
+2) Click “Process PDF” to extract and chunk text
+
+3) Choose the number of questions, difficulty, and topic
+
+4) Click “Generate Quiz”
+
+5) Take the quiz, submit answers, and download it as PDF or TXT
+
+📂 Project Structure
+```bash
+📦 ai-quiz-generator
+├── app.py                 # Streamlit frontend
+├── backend.py             # Core logic for extraction, embeddings, and quiz generation
+├── requirements.txt       # Dependencies
+├── .env                   # Groq API key
+└── README.md              # Project documentation
+```
+
+🤝 Contributing
+Contributions are welcome!
+
+If you’d like to add features or improve this project:
+
+1) Fork this repository
+2) Create a new branch
+3) Make your changes
+4) Submit a pull request 
+
+   
+## ❤️ Acknowledgments
+
+- **[LangChain](https://www.langchain.com/)** – for document processing pipelines  
+- **[FAISS](https://github.com/facebookresearch/faiss)** – for efficient vector similarity search  
+- **[Groq](https://groq.com/)** – for fast inference and LLM access  
+- **[Streamlit](https://streamlit.io/)** – for building the web app  
+- **[ReportLab](https://www.reportlab.com/)** – for PDF generation
+
+  
+
+
