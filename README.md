@@ -30,9 +30,8 @@ It uses **LangChain**, **FAISS**, and **Groq’s Llama 3.3 model** to analyze le
 
 ```mermaid
 graph TD
-    A[📄 Upload PDF] --> B[🧩 Extract & Split Text]
-    B --> C[🔍 Build FAISS Vector Store]
-    C --> D[🧠 Query Groq LLM (Llama 3.3)]
-    D --> E[❓ Generate MCQs]
-    E --> F[🧾 Display & Download Quiz]
-
+    A[Upload PDF] --> B[Extract & Split Text]
+    B --> C[Build FAISS Vector Store]
+    C --> D[Query Groq LLM (Llama 3.3)]
+    D --> E[Generate MCQs]
+    E --> F[Display & Download Quiz]
