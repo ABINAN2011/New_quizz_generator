@@ -34,3 +34,30 @@ graph TD
     C --> D[Query Groq LLM (Llama 3.3)]
     D --> E[Generate MCQs]
     E --> F[Display & Download Quiz]
+
+⚙️ Tech Stack
+
+| Component           | Technology Used                |
+| ------------------- | ------------------------------ |
+| **Frontend**        | Streamlit                      |
+| **Backend**         | LangChain                      |
+| **Embeddings**      | Ollama (nomic-embed-text)      |
+| **Vector Database** | FAISS                          |
+| **LLM**             | Groq – Llama 3.3 70B Versatile |
+| **PDF Handling**    | LangChain PyPDFLoader          |
+| **PDF Export**      | ReportLab                      |
+
+1) 🧩 Installation
+Clone this repository and install dependencies:
+```bash
+git clone https://github.com/YOUR_USERNAME/ai-quiz-generator.git
+cd ai-quiz-generator
+pip install -r requirements.txt
+```
+2) 🔐 Configure Environment Variables
+Create a .env file and add your Groq API key:
+```bash
+GROQ_API_KEY=your_api_key_here
+```
+
+3) 
