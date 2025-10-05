@@ -111,7 +111,7 @@ If you’d like to add features or improve this project:
 
 This project is licensed under the MIT License – feel free to use and modify.
 
-<p align="center"> Built with ❤️ by <b>Abinan Ketheeswaran</b> <br> <a href="mailto:k.abinan20@gmail.com">k.abinan20@gmail.com</a> · <a href="https://github.com/ABINAN201">GitHub</a> </p> ```
+<p align="center"> Built with ❤️ by <b>Abinan Ketheeswaran</b> <br> <a href="mailto:k.abinan20@gmail.com">k.abinan20@gmail.com</a> · <a href="https://github.com/ABINAN201">GitHub</a> </p> 
   
 
 
