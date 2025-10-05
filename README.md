@@ -28,7 +28,6 @@ It uses **LangChain**, **FAISS**, and **Groq’s Llama 3.3 model** to analyze le
 
 ## 🏗️ Project Architecture
 
-```mermaid
 graph TD
     A[Upload PDF] --> B[Extract & Split Text]
     B --> C[Build FAISS Vector Store]
