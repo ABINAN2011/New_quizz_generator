@@ -84,7 +84,6 @@ streamlit run app.py
 ├── backend.py             # Core logic for extraction, embeddings, and quiz generation
 ├── requirements.txt       # Dependencies
 ├── .env                   # Groq API key
-└── README.md              # Project documentation
 ```
 
 🤝 Contributing
